@@ -166,7 +166,7 @@ The XGBoost classifier is run with the same methods as the Random Forest classif
 
 ![xgb-model](docs/04_model-xgb.png)
 
-The performance of these models were not as good as the Random Forest Classifiers; however, it is interesting to note that the model was much less complex. XGBoost optimised max depth was 2, whereas the Random Forest max depths were 8.
+The performance of these models were not as good as the Random Forest Classifiers; however, it is interesting to note that the model was much less complex. XGBoost optimised max depth was 2, whereas Random Forest max depth was 8.
 
 ### 4.4 Final model choice
 
