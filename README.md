@@ -49,7 +49,7 @@ The data can be divided into two categories, the rig count data, and economic da
 
 #### 2.1.1 Data Pulling
 
-[Rig Count Data Notebook](notebooks/02_Classification/2.1_Mining-Cleaning_BHRigCount_weekly.ipynb)
+[Rig Count Data Notebook](https://github.com/brspencer90/rig-count_L48/blob/master/notebooks/02_Classification/2.1_Mining-Cleaning_BHRigCount_weekly.ipynb)
 
 The rig count data is sourced from the Baker Hughes Rig Count website. Baker Hughes has been long recognized as the world standard for rig count data, and is given weekly. Specifically, we will only be using oil rig count in the US L48.
 
@@ -63,7 +63,7 @@ With data being released weekly, having to download the excel file manually and 
 
 #### 2.2.1 Data Pulling
 
-[EIA Economic Data Notebook](notebooks/02_Classification/2.2_Mining-Cleaning_EIAData_daily.ipynb)
+[EIA Economic Data Notebook](https://github.com/brspencer90/rig-count_L48/blob/master/notebooks/02_Classification/2.2_Mining-Cleaning_EIAData_weekly.ipynb)
 
 The economic data is sourced from the Energy Information Administration, a US government organisation that collects a vast amount of data and supplies analysis and reports based on this information. They have an extensive API that is used for this project to obtain data including commodity prices, production data, and consumption data. This data ranges from daily to monthly.
 
@@ -75,7 +75,7 @@ The main issue with this data from the EIA is the fact that the data does not ha
 
 ## 3 Exploratory Data Analysis
 
-[EDA Notebook](notebooks/02_Classification/3.1_EDA_class.ipynb)
+[EDA Notebook](https://github.com/brspencer90/rig-count_L48/blob/master/notebooks/02_Classification/3.1_EDA_class.ipynb)
  
 ### 3.1 Describe the data obtained in a visual and tabular method
 
@@ -111,7 +111,7 @@ In order to keep this consistent between four and eight week predictions, we can
 
 I chose to do the majority of the modelling using the Scikit learn library with a few custom functions to help automate the process. The notebook for the modelling can be found here : 
 
-[Modelling Notebook](notebooks/02_Classification/5.1_Modelling_class.ipynb)
+[Modelling Notebook](https://github.com/brspencer90/rig-count_L48/blob/master/notebooks/02_Classification/5.1_Modelling_class.ipynb)
 
 ### 4.1 Train / Test Split
 
